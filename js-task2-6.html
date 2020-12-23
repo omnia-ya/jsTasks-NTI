@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task 2-6</title>
+</head>
+<body>
+	<script>
+		var x =prompt("enter your email:");
+		var y1 = x.indexOf("@");
+		var y2 = x.indexOf(".");
+		if(y1==2 && y2==5) {
+			document.write('<h1 style="text-align:center; color:green">valid email</h1>');
+		}
+		else{
+			document.write('<h1 style="text-align:center; color:red">not a valid email</h1>');
+		}
+	</script>
+</body>
+</html>

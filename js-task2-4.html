@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task 2-4</title>
+</head>
+<body>
+	<script>
+		// first method//
+		var x1= prompt("enter your text:");
+		var y1 = x1.indexOf("nti");
+		if( y1 == 0){
+			document.write('<h1 style="text-align:center;color:green">accepted</h1>');
+		}
+		else{
+			document.write('<h1 style="text-align:center;color:red">not accepted</h1>');
+		}
+		//second method//
+		var x = prompt("enter your text:");
+		var y = x.split("");
+		var p= y[0]+y[1]+y[2];
+		if( p == 'nti'){
+			document.write('<h1 style="text-align:center;color:green">accepted</h1>');
+		}
+		else{
+			document.write('<h1 style="text-align:center;color:red">not accepted</h1>');
+		}
+		
+	</script>
+</body>
+</html>
